@@ -1,4 +1,5 @@
-Features
+#Image process app
+##Features
 
 - Grayscale conversion  
 - Gaussian blur  
@@ -15,14 +16,19 @@ Features
 
 
 
-**How to use**
+##**How to use**
 
 1. Clone this repository
 
 2. Install dependencies
+3. 
+```
 pip install -r requirements.txt
+```
 
-3. Run the app
+4. Run the app
+```
 streamlit run app.py
+```
 
 
