@@ -21,15 +21,17 @@
 1. Clone this repository
 
 2. Install dependencies
-3. 
+
 ```
 pip install -r requirements.txt
 ```
 
-4. Run the app
+3. Run the app
+
 ```
 streamlit run app.py
 ```
+
 
 
 
