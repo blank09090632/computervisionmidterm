@@ -1,12 +1,5 @@
-# 🖼️ Image Processing Web App  
-A simple and user-friendly **image processing app** built with **Python, OpenCV, and Streamlit**.  
-Users can upload an image, apply filters (grayscale, blur, sharpen, denoise, resize, rotate, flip...), and **download the processed image**.
+Features
 
----
-
-## 🚀 Features
-
-### 🔧 Basic Image Operations
 - Grayscale conversion  
 - Gaussian blur  
 - Sharpen image  
@@ -14,27 +7,22 @@ Users can upload an image, apply filters (grayscale, blur, sharpen, denoise, res
 - Brightness adjustment  
 - Contrast adjustment  
 - Rotate image  
-- Flip horizontally & vertically  
-
-### 🧹 Denoising Filters
-- Median filter (removes salt-and-pepper noise)  
-- Gaussian denoise  
-- Bilateral filter (edge-preserving smoothing)
-
-### ✂️ Resize Tools
-- Resize by percentage (%)  
+- Flip horizontally & vertically
 - Resize by width & height  
-- Maintain aspect ratio (optional)
-
-### 💾 Save / Download
 - Download the processed image as **PNG**
+- Median filter  
+- Gaussian denoise  
 
----
 
-## 📦 Installation
 
-### 1️⃣ Clone this repository
+**How to use**
 
-```bash
-git clone https://github.com/yourusername/image-processing-app.git
-cd image-processing-app
+1. Clone this repository
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run the app
+streamlit run app.py
+
+
